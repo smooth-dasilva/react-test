@@ -54,6 +54,7 @@
     "build": "craco build",
     "lint": "eslint src/",
     "lint:fix": "eslint src/ --fix",
+    "sonar": "node sonar-project.js",
     "test": "jest",
     "test:lint": "eslint src/ && jest",
     "test:coverage": "jest --coverage",
